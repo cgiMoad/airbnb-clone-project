@@ -1,9 +1,9 @@
 # airbnb-clone-project
 
 <h1>Technology Stack<h1>
->Django: A high-level Python web framework used for building the RESTful API.
->Django REST Framework: Provides tools for creating and managing RESTful APIs.
->PostgreSQL: A powerful relational database used for data storage.
+>Django: A high-level Python web framework used for building the RESTful API.</br>
+>Django REST Framework: Provides tools for creating and managing RESTful APIs.</br>
+>PostgreSQL: A powerful relational database used for data storage.</br>
 >GraphQL: Allows for flexible and efficient querying of data.
 >Celery: For handling asynchronous tasks such as sending notifications or processing payments.
 >Redis: Used for caching and session management.
