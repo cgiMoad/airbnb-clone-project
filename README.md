@@ -45,15 +45,10 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 
 
 <h1>Team Roles</h1>
->
-><ol>
-      <li>Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic.</li>
-      <li>Database Administrator: Manages database design, indexing, and optimizations.</li>
-      <li>DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.</li>
-      <li>QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.</li>
-</ol>
->
->
->
->
->
+      ><ol>
+            <li>Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic.</li>
+            <li>Database Administrator: Manages database design, indexing, and optimizations.</li>
+            <li>DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.</li>
+            <li>QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.</li>
+      </ol>
+
