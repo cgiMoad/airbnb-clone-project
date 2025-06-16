@@ -1,6 +1,6 @@
 # airbnb-clone-project
 
-<h1>Technology Stack<h1>
+<h1>Technology Stack</h1>
 <ul>
       <li>
         >Django: A high-level Python web framework used for building the RESTful API.
