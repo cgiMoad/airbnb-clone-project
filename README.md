@@ -54,7 +54,7 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 
 </ul>
 
-<h2>Database Design</h2>
+<h1>Database Design</h1>
 
 <p>The project uses a relational database with the following main entities:</p>
       <ul>
