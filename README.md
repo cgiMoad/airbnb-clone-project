@@ -54,7 +54,7 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 
 </ul>
 
-<h1>Database Design</h1>
+<h1>Database Design - Feature Breakdown</h1>
       <h2>1. API Documentation</h2>
       <ul>
       <li>OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.</li>
@@ -91,5 +91,36 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
        <li>Indexing: Implement indexes for fast retrieval of frequently accessed data.</li>
        <li>Caching: Use caching strategies to reduce database load and improve performance.</li>
       </ul>
+
+<h1>Feature Breakdown</h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
