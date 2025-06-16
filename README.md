@@ -59,28 +59,27 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
       OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
       Django REST Framework: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
       GraphQL: Offers a flexible and efficient query mechanism for interacting with the backend.
-      
-      <h2>2. User Authentication</h2>
+<h2>2. User Authentication</h2>
       <li>Endpoints: /users/, /users/{user_id}/</li>
-      Features: Register new users, authenticate, and manage user profiles.
+      <li>Features: Register new users, authenticate, and manage user profiles. </li>
       
-      <h2>3. Property Management</h2>
+<h2>3. Property Management</h2>
       Endpoints: /properties/, /properties/{property_id}/
       Features: Create, update, retrieve, and delete property listings.
       
-      <h2>4. Booking System</h2>
+<h2>4. Booking System</h2>
       Endpoints: /bookings/, /bookings/{booking_id}/
       Features: Make, update, and manage bookings, including check-in and check-out details.
       
-      <h2>5. Payment Processing</h2>
+<h2>5. Payment Processing</h2>
       Endpoints: /payments/
       Features: Handle payment transactions related to bookings.
       
-      <h2>6. Review System</h2>
+<h2>6. Review System</h2>
       Endpoints: /reviews/, /reviews/{review_id}/
       Features: Post and manage reviews for properties.
       
-      <h2>7. Database Optimizations</h2>
+<h2>7. Database Optimizations</h2>
       Indexing: Implement indexes for fast retrieval of frequently accessed data.
       Caching: Use caching strategies to reduce database load and improve performance.
 
