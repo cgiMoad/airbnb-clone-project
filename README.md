@@ -43,12 +43,43 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
         </li>
 </ul>
 
-
 <h1>Team Roles</h1>
-      ><ol>
+      <ol>
             <li>Backend Developer: Responsible for implementing API endpoints, database schemas, and business logic.</li>
             <li>Database Administrator: Manages database design, indexing, and optimizations.</li>
             <li>DevOps Engineer: Handles deployment, monitoring, and scaling of the backend services.</li>
             <li>QA Engineer: Ensures the backend functionalities are thoroughly tested and meet quality standards.</li>
       </ol>
+      
+<h1>Database Design</h1>
+<h2>1. API Documentation</h2>
+      OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
+      Django REST Framework: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
+      GraphQL: Offers a flexible and efficient query mechanism for interacting with the backend.</br>
+      
+<h2>2. User Authentication</h2>
+Endpoints: /users/, /users/{user_id}/
+Features: Register new users, authenticate, and manage user profiles.
+
+<h2>3. Property Management</h2>
+Endpoints: /properties/, /properties/{property_id}/
+Features: Create, update, retrieve, and delete property listings.
+
+<h2>4. Booking System</h2>
+Endpoints: /bookings/, /bookings/{booking_id}/
+Features: Make, update, and manage bookings, including check-in and check-out details.
+
+<h2>5. Payment Processing</h2>
+Endpoints: /payments/
+Features: Handle payment transactions related to bookings.
+
+<h2>6. Review System</h2>
+Endpoints: /reviews/, /reviews/{review_id}/
+Features: Post and manage reviews for properties.
+
+<h2>7. Database Optimizations</h2>
+Indexing: Implement indexes for fast retrieval of frequently accessed data.
+Caching: Use caching strategies to reduce database load and improve performance.
+
+
 
