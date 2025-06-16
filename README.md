@@ -92,8 +92,17 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
        <li>Caching: Use caching strategies to reduce database load and improve performance.</li>
       </ul>
 
-<h1>Feature Breakdown</h1>
+<h1>API Security</h1>
 
+<p>To protect our backend APIs, we’ve implemented basic security measures:</p>
+
+<ul>
+  <li><strong>Authentication</strong>: Only logged-in users can access protected routes.</li>
+  <li><strong>Authorization</strong>: Users can only access data and features they’re allowed to.</li>
+  <li><strong>Rate Limiting</strong>: Prevents abuse by limiting the number of requests per user/IP.</li>
+</ul>
+
+<p>These measures help protect user data, prevent unauthorized access, and keep the system stable and secure.</p>
 
 
 
