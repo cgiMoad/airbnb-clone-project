@@ -54,7 +54,26 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 
 </ul>
 
-<h1>Database Design - Feature Breakdown</h1>
+<h2>Database Design</h2>
+
+<p>The project uses a relational database with the following main entities:</p>
+      <ul>
+        <li><strong>Users</strong>: id, name, email, password</li>
+        <li><strong>Properties</strong>: id, user_id, title, location, price</li>
+        <li><strong>Bookings</strong>: id, user_id, property_id, start_date, end_date</li>
+        <li><strong>Reviews</strong>: id, user_id, property_id, rating, comment</li>
+        <li><strong>Payments</strong>: id, booking_id, amount, method, status</li>
+      </ul>
+<p><strong>Relationships:</strong></p>
+      <ul>
+        <li>One user can have many properties.</li>
+        <li>One user can make many bookings.</li>
+        <li>Each booking is linked to one user and one property.</li>
+        <li>Each review is linked to a user and a property.</li>
+        <li>Each payment is linked to a booking.</li>
+      </ul>
+
+<h1>Feature Breakdown</h1>
       <h2>1. API Documentation</h2>
       <ul>
       <li>OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.</li>
