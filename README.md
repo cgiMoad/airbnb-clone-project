@@ -55,10 +55,12 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
 </ul>
 
 <h1>Database Design</h1>
-<ul><h2>1. API Documentation</h2>
-      OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.
-      Django REST Framework: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.
-      GraphQL: Offers a flexible and efficient query mechanism for interacting with the backend.
+<ul>
+      <h2>1. API Documentation</h2>
+      <li>OpenAPI Standard: The backend APIs are documented using the OpenAPI standard to ensure clarity and ease of integration.</li>
+      <li>Django REST Framework: Provides a comprehensive RESTful API for handling CRUD operations on user and property data.</li>
+      <li>GraphQL: Offers a flexible and efficient query mechanism for interacting with the backend. </li>
+      
 <h2>2. User Authentication</h2>
       <li>Endpoints: /users/, /users/{user_id}/</li>
       <li>Features: Register new users, authenticate, and manage user profiles. </li>
