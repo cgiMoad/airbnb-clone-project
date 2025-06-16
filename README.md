@@ -102,7 +102,20 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
   <li><strong>Rate Limiting</strong>: Prevents abuse by limiting the number of requests per user/IP.</li>
 </ul>
 
-<p>These measures help protect user data, prevent unauthorized access, and keep the system stable and secure.</p>
+<h1>CI/CD Pipeline</h1>
+
+
+<p>A <strong>CI/CD pipeline</strong> (Continuous Integration / Continuous Deployment) automates the process of testing, building, and deploying code. It ensures that changes to the codebase are reliable and can be delivered quickly and safely.</p>
+
+<p><strong>Why it’s important:</strong><br>
+CI/CD helps catch bugs early, speeds up development, and ensures consistent deployment, making the project more stable and efficient.</p>
+
+<p><strong>Tools used:</strong></p>
+<ul>
+  <li><strong>GitHub Actions</strong> – Automates testing and deployment workflows.</li>
+  <li><strong>Docker</strong> – Ensures consistent environments across development, testing, and production.</li>
+  <li><strong>Other tools (optional):</strong> Jest for testing, Netlify/Vercel for deployment.</li>
+</ul>
 
 
 
