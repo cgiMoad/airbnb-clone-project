@@ -64,24 +64,24 @@ The backend for the Airbnb Clone project is designed to provide a robust and sca
       <li>Features: Register new users, authenticate, and manage user profiles. </li>
       
 <h2>3. Property Management</h2>
-      Endpoints: /properties/, /properties/{property_id}/
-      Features: Create, update, retrieve, and delete property listings.
+       <li>Endpoints: /properties/, /properties/{property_id}/</li>
+       <li>Features: Create, update, retrieve, and delete property listings.</li>
       
 <h2>4. Booking System</h2>
-      Endpoints: /bookings/, /bookings/{booking_id}/
-      Features: Make, update, and manage bookings, including check-in and check-out details.
+       <li>Endpoints: /bookings/, /bookings/{booking_id}/</li>
+       <li>Features: Make, update, and manage bookings, including check-in and check-out details.</li>
       
 <h2>5. Payment Processing</h2>
-      Endpoints: /payments/
-      Features: Handle payment transactions related to bookings.
+       <li>Endpoints: /payments/</li>
+       <li>Features: Handle payment transactions related to bookings.</li>
       
 <h2>6. Review System</h2>
-      Endpoints: /reviews/, /reviews/{review_id}/
-      Features: Post and manage reviews for properties.
+       <li>Endpoints: /reviews/, /reviews/{review_id}/</li>
+       <li>Features: Post and manage reviews for properties.</li>
       
 <h2>7. Database Optimizations</h2>
-      Indexing: Implement indexes for fast retrieval of frequently accessed data.
-      Caching: Use caching strategies to reduce database load and improve performance.
+       <li>Indexing: Implement indexes for fast retrieval of frequently accessed data.</li>
+       <li>Caching: Use caching strategies to reduce database load and improve performance.</li>
 
 
 
