@@ -96,7 +96,3 @@
   - `email` in User
   - `property_id` in Property and Booking
   - `booking_id` in Booking and Payment
-
-## Diagram Output
-
-A visual ER diagram (e.g., `airbnb_erd.drawio`, `airbnb_erd.png`) has been created based on this specification. See this file in the `ERD/` folder.
